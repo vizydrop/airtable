@@ -1,0 +1,9 @@
+{
+  "name": "airtable",
+  "version": "1.0.0",
+  "dependencies": {
+    "airtable": "^0.5.9",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
