@@ -32,13 +32,13 @@ const getSources = () => [
         id: 'base',
         name: 'Table',
         description: 'Airtable source',
-        filter: [{
-            id: 'base',
-            name: 'Base Id',
-            description: `Navigate to https://airtable.com/api. Click on desired base and copy {base id}. 
-                It can be found in browser address bar https://airtable.com/{base id}/api/docs#curl/introduction`,
-            type: 'text'
-        },
+        filter: [
+            {
+                id: 'base',
+                name: 'Base Id',
+                description: `Navigate to https://airtable.com/api. Click on desired base and copy {base id}. It can be found in browser address bar https://airtable.com/{base id}/api/docs#curl/introduction`,
+                type: 'text'
+            },
             {
                 id: 'table',
                 name: 'Table Name',
