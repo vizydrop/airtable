@@ -65,7 +65,7 @@ app.get('/logo', (req, res) => res.sendFile(resolve('./logo.svg')));
 
 app.post('/validate', (req, res) => {
     if (!req.body.fields || !req.body.fields.key) {
-        throw new Error('Please provide Airtable API Key');
+        throw new Error(VALID_API_KEY);
     }
     const key = req.body.fields.key;
     const endingForAccountName = key.substr(key.length - 3, 3);
