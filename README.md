@@ -1,2 +1,2 @@
-# Notion
-Notion connector
+# Airtable
+Airtable connector
