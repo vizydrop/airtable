@@ -1,2 +1,2 @@
 # Airtable
-Airtable connector
+Airtable connector built using custom app API
